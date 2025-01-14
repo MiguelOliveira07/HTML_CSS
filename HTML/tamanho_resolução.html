@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diferente tamanhos de imagem</title>
+</head>
+<body>
+    <h1>Exemplo de diferentes tamanhos:</h1>
+    <p>A imagme muda conforme o tamanho de resolução da tela do usuário.</p>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="Imagens/foto_150.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/Projetsos_básico/file.jpg" type="image/png">
+        <img src="Imagens/foto_1000.png" alt="imagem fléxivel">
+    </picture>
+</body>
+</html> 

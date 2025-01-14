@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: site;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #EBF2B3;
+    background-attachment: fixed;
+    text-align: justify;
+    align-items: center;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #6dd175, #5E8C5D, #325935, #1a3320);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -30px -15px 0px -15px;
+    padding: 10px;
+}
+
+header>p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+header>h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 0px black;
+    padding-top: 21px;
+}
+
+header>nav>a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    margin-left: 3px;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+header>nav>a:hover {
+    color: #214029;
+    background-color: #5E8C5D;
+    padding: 6px;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 850px;
+    min-width: 350px;
+    padding: 1px 20px 20px 20px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px 0px black;
+
+}
+
+
+main>article>h1 {
+    font-family: site;
+    color: #214029;
+}
+
+main>article>h2 {
+    font-family: site;
+    background-image: linear-gradient(to right, #6dd175 20%, white 90%);
+    color: #214029;
+    padding: 2px 3px 3px 5px;
+}
+
+.links {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6dd175;
+    font-weight: 700;
+    color: #214029;
+    text-decoration: none;
+    padding: 2px 3px 3px 3px;
+    vertical-align: middle;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.videos {
+    background-attachment: fixed;
+    background-color: #1a3320;
+    padding: 10px;
+}
+
+aside {
+    background-color: #9edb9cbe;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 0px 8px 8px 8px;
+}
+
+#extra_h2 {
+    background-color: #5E8C5D;
+    color: white;
+    margin: -8px;
+    padding: 13px;
+    border: 10px;
+}

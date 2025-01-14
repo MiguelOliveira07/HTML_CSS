@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    font-size: 17px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #DAFDBA, #9AEBA3);
+    background-attachment: fixed;
+}
+
+main {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px #01203079;
+    width: 600px;
+    margin: auto;
+    
+}
+
+h1 {
+    font-size: 25px;
+    font-style: italic;
+    color: #13678A;
+    text-align: center;
+    text-shadow: 2px 2px 2px #0e48614d;
+}
+
+h2 {
+    color: #45C4B0;
+}
+
+p {
+    text-align: justify;
+}
