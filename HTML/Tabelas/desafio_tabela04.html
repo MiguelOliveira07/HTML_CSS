@@ -1,18 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas_04</title>
     <style>
-        table{
-            width: 300px;
+        table {
+            width: 700px;
+            border-collapse: collapse;
+            position: relative;
+            border: 1px solid black;
+        }
+       
+       th, td{
+            border: 1px solid black;
+
+        }
+
+        caption {
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: lightgray;
+            color: rgb(0, 0, 0);
         }
     </style>
 </head>
+
 <body>
+    <h1>Exercícos de Tabelas_04</h1>
+
     <table>
-        <tr></tr>
+
+        <caption>Filmes Favoritos</caption>
+
+        <tr>
+           <th>Grupo</th>
+            <th>Nomes</th>
+            <th colspan="3" >filmes</th>
+
+        </tr>
+        <tr>
+            <th rowspan="3">Mulheres
+            <td>Ana Maria Santos
+            <td>Alen
+            <td>Rambo
+            <td>Vingadores
+
+        </tr>
+        <tr>
+            <td>Beatriz Souza
+            <td>Hulk
+            <td>Iception
+            <td>Batman
+
+        </tr>
+        <tr>
+            <td>Cláudia Melo
+            <td>Oblivion
+            <td>Matrix
+            <td>Big Hero
+
+        </tr>
+        <tr>
+            <th rowspan="3">Homens
+            <td>Bruno
+            <td>Intocáveis
+            <td>Amnésia
+            <td>Gladiador
+        </tr>
+        <tr>
+            <td>Daniel Lourenço
+            <td>Wall-E
+            <td>Oldboy
+            <td>Dangal
+        </tr>
+        <tr>
+            <td>Fabiano Mota
+            <td>Star-Wars 5
+            <td>taxi Driver
+            <td>Toy Story
+
+        </tr>
+
     </table>
 </body>
+
 </html>
