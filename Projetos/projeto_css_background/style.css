@@ -54,23 +54,7 @@ header>p>a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: var(--texto-escuro);
-    color: var(--texto-claro-);
-    text-align: center;
-    font: var(--font0);
-}
 
-footer>p>a {
-    text-decoration: none;
-    color: var(--texto-claro-);
-    font-weight: bold;
-}
-
-footer>p>a:hover {
-    text-decoration: underline;
-
-}
 
 section {
     padding-top: 10vh;
@@ -87,9 +71,43 @@ section.branco {
 section.imagem {
     color: var(--texto-claro-);
     background-color: rgb(71, 68, 68);
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0, 0.500);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+
+
 }
 
+section#img2{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    
+}
 section.imagem>p{
     width: 400px;
-    background-color: black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.526);
+    text-shadow: 2px 2px 2px black;
+}
+footer {
+    background-color: var(--texto-escuro);
+    color: var(--texto-claro-);
+    text-align: center;
+    font: var(--font0);
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: var(--texto-claro-);
+    font-weight: bold;
+}
+
+footer>p>a:hover {
+    text-decoration: underline;
+
 }
