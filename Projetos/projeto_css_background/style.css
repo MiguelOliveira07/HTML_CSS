@@ -1,18 +1,14 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-@font-face {
-    font-family:fonte_texto ;
-    src: url(pomoyan_sunrise/Pomoyan\ Sunrise.otf);
-    font-size: 60px ;
-}
+
 
 :root {
     --texto-claro-: white;
     --texto-escuro: black;
 
     --font0: font-family: "Roboto Mono", serif;
-    --font1: fonte_texto;
+    --font1: 'Passion one', cursive;
 
 }
 
@@ -90,5 +86,10 @@ section.branco {
 
 section.imagem {
     color: var(--texto-claro-);
-    background-color: var(--texto-escuro);
+    background-color: rgb(71, 68, 68);
+}
+
+section.imagem>p{
+    width: 400px;
+    background-color: black;
 }
