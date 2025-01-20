@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 06</title>
+</head>
+
+<body>
+    <h1>Exemplo do 6º formulário</h1>
+    <form action="Cadastro.php" method="post">
+
+        <label for="icor">Cor</label>
+        <input type="color" name="Cor" id="icor">
+
+        <p>
+            <label for="inivel">Nivel de Satisfação: </label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+        </p>
+
+        <p>
+            <label for="ifoto">Foto</label>
+            <input type="file" nome="foto" id="ifoto"> 
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
