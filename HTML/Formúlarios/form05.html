@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 05</title>
+</head>
+
+<body>
+    <h1>Exemplo de formulários</h1>
+    <form action="Cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sx" id="isxmas">
+            <label for="isxmas">Masculino</label><br>
+
+            <input type="radio" name="sx" id="isxfem">
+            <label for="isxfem">Feminino</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>My favorite sports</legend>
+            <p>
+                <br><input type="checkbox" name="iFutebol" id="iiFutebol"><label for="iiFutebol">Futebol</label></br>
+                <br><input type="checkbox" name="Vôlei" id="iVôlei"><label for="iVôlei">Vôlei</label></br>
+                <br><input type="checkbox" name="Natação" id="iNatação"><label for="iNatação">Natação</label></br>
+                <br><input type="checkbox" name="Xadrez" id="iXadrez"><label for="iXadrez">Xadrez</label></br>
+                <br><input type="checkbox" name="iHandbal" id="iiHandbal"><label for="iHandbal">Handbal</label></br>
+                <br><input type="checkbox" name="Dama" id="iDama"><label for="iDama">Dama</label></br>
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>
