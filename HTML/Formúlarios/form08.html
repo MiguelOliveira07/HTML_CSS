@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 08</title>
+</head>
+
+<body>
+    <form action="Cadastro.php" method="get">
+
+        <h1>Teste de formulários 08</h1>
+
+        <p>
+            <label for="inu1">1º Número:</label>
+            <input type="number" name="num" id="inu1" min="1" max="20" required oninput="isoma.innerHTML = Number (inu1.value) + Number (inu2.value)">
+
+        </p>
+        <p>
+            <label for="inu2">2º Número: </label>
+            <input type="number" name="num2" id="inu2" min="1" max="20" required oninput="isoma.innerHTML = Number (inu1.value) + Number (inu2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma: </label>
+            <output id="isoma">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>
