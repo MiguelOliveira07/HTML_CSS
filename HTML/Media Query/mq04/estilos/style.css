@@ -17,7 +17,10 @@ body, html{
 }
 
 body{
-    background-color: blacck;
+    background-color: black;
+}
+h1{
+    font-size: 458px;
 }
 
 main{
