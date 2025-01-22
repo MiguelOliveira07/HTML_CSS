@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <span class="material-symbols-outlined" onclick="clickMenu()" id="menu">
+            menu
+        </span>
+        <menu id="menu_itens">
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Imagens</a></li>
+                <li><a href="#">Em Alta</a></li>
+                <li><a href="#">+ Informações</a></li>
+                <li><a href="#">Configurações</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testanto midia query</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae impedit voluptatum laudantium eius
+                obcaecati ullam quibusdam, distinctio sequi fuga harum esse aperiam dolores neque iste. Nemo provident
+                porro iusto quae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, assumenda nostrum
+                dignissimos perferendis ex sunt in explicabo! Tenetur eligendi doloremque maxime iusto. Odio magnam
+                dignissimos dolores provident? In, facilis iure! Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Sapiente ad quisquam ut harum deserunt tempora ipsa natus expedita. Adipisci placeat quidem
+                eveniet numquam asperiores omnis quae dolorem nesciunt rerum reprehenderit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate natus quia eius libero modi
+                veritatis necessitatibus, reprehenderit esse dolorem sed aliquid vitae itaque temporibus debitis
+                pariatur doloribus, reiciendis nam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde amet
+                eos impedit possimus fugit est repudiandae laudantium iure pariatur earum perspiciatis distinctio ab
+                recusandae, expedita deleniti mollitia assumenda nemo qui?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate natus quia eius libero modi
+                veritatis necessitatibus, reprehenderit esse dolorem sed aliquid vitae itaque temporibus debitis
+                pariatur doloribus, reiciendis nam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde amet
+                eos impedit possimus fugit est repudiandae laudantium iure pariatur earum perspiciatis distinctio ab
+                recusandae, expedita deleniti mollitia assumenda nemo qui?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate natus quia eius libero modi
+                veritatis necessitatibus, reprehenderit esse dolorem sed aliquid vitae itaque temporibus debitis
+                pariatur doloribus, reiciendis nam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde amet
+                eos impedit possimus fugit est repudiandae laudantium iure pariatur earum perspiciatis distinctio ab
+                recusandae, expedita deleniti mollitia assumenda nemo qui?</p>
+
+        </article>
+    </main>
+    <script>
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                items.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            
+            if (menu_itens.style.display == 'block') {
+                menu_itens.style.display = 'none'
+            } else {
+                menu_itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+
+</html>
