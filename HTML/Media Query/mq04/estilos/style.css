@@ -1,43 +1,14 @@
 @charset "UTF-8";
 
-/* Versão mobile first */
+/* Configurações gerais*/ 
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
 
-}
-
-body, html{
+html, body{
     width: 100vw;
     height: 100vh;
 }
-
-body{
-    background-color: black;
-}
-h1{
-    font-size: 458px;
-}
-
-main{
-    background-color: rgba(240, 240, 174, 0.671);
-    width: 90vw;
-    margin: auto;
-    border-radius: 6px;
-    padding: 10px;
-}
-
-img{
-    display: block;
-    margin: auto;
-}
-
-img#phone {display: block;}
-img#tablet {display: none;}
-img#print {display: none;}
-img#desktop {display: none;}
-img#TV {display: none;}
