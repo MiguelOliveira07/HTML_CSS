@@ -42,8 +42,8 @@ section#login {
 
     background-color: #f8e8d8ec;
     width: 280px;
-    height: 500px;
-    border-radius: 17px;
+    height: 510px;
+    border-radius: 15px;
     overflow: hidden;
     box-shadow: 2px 2px 11px 0px black;
 
@@ -76,6 +76,20 @@ div#formulário>p {
     font-size: 0.8em;
     
 } 
+
+.campo{
+    width: 100%;
+    display: block;
+    margin-top: 3px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    background-color: #BA8E7A;
+}
+
+form label{
+    display: none;
+}
 
 form > input{
     font-weight: bold;
