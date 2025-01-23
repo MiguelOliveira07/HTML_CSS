@@ -39,21 +39,26 @@ section#login{
 
     transform: translate(-50%, -50%);
 
-    background-color: #f7e0c7;
+    background-color: #f8e8d8ec;
     width: 250px;
     height: 500px;
     border-radius: 17px;
     overflow: hidden;
-    box-shadow: 10px 10px 5px #BA8E7A ;
+    box-shadow: 2px 2px 11px 0px black ;
+
+    transition: width  0.4s, heigth 0.4s;
+    transition-timing-function: ease;
 }
 
 section#login>div#imagem{
+    display: block;
     background: #EFDFCC url(pexels-teresa-jang-6930116-30095280.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: center bottom;
+    
 }
 
 section#login > div#formulário{
-    
+    padding: 10px;
 }
