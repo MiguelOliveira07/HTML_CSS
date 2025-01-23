@@ -53,4 +53,8 @@
         float: right;
         width: 55%;
     }
+
+    div#formulário > p{
+        font-size:  0.8em;
+    }
 }
