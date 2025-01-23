@@ -98,11 +98,11 @@ div#formulário>p {
 .campo > input{
     font-size: 1em;
     width: calc(100% - 50px);
-    transform: translateY(-13px);
     height: 100%;
     border: none;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-13px);
 }
 
 form label{
