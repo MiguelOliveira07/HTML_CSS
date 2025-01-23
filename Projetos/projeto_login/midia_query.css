@@ -10,7 +10,7 @@
 
     body,
     html {
-        background-image: linear-gradient(to top, #66796B 26%, #BA8E7A , #D7A184);
+        background-image: linear-gradient(to top, #042940, #0d3c5a, #66796B, #b98871 80%, #d6a489, #e7c4b1);
     }
 
     section#login {
@@ -30,31 +30,31 @@
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
     body,
     html {
-        background-image: linear-gradient(to top, #66796B 26%, #BA8E7A , #D7A184);
+        background-image: linear-gradient(to top, #042940, #0d3c5a, #66796B, #b98871 80%, #d6a489, #e7c4b1);
     }
 
-    section#login{
+    section#login {
         width: 990px;
         height: 60vh;
     }
 
-    section#login > div#imagem{
+    section#login>div#imagem {
         float: left;
         width: 45%;
         height: 100%;
     }
 
-    section#login > div#formulário{
+    section#login>div#formulário {
 
         float: right;
         width: 55%;
     }
 
-    div#formulário > p{
-        font-size:  0.8em;
+    div#formulário>p {
+        font-size: 0.8em;
     }
 }
