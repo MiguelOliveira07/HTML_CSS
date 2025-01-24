@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando flex box</title>
+    <style>
+        .contender{
+            background-color: rgba(7, 23, 161, 0.349);
+
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .item{
+            background-color: rgba(80, 49, 167, 0.274);
+            text-align: center;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        #i1{
+            order: 0;
+        }
+        #i2{
+            order: 0;
+        }
+        #i3{
+            order: 0;
+        }
+        #i4{
+            order: 1;
+        }
+        #i5{
+            order: 4;
+        }
+        #i6{
+            order: -3;
+        }
+        #i7{
+            order: -2;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Exmplo de Div com Flex Box</h1>
+        <div class="contender">
+            <div class="item" id="i1">A</div>
+            <div class="item" id="i2">B</div>
+            <div class="item" id="i3">C</div>
+            <div class="item" id="i4">D</div>
+            <div class="item" id="i5">E</div>
+            <div class="item" id="i6">F</div>
+            <div class="item" id="i7">G</div>
+        </div>
+
+</body>
+</html>
