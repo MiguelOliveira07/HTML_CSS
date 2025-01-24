@@ -3,42 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox centralizado</title>
+    <title>Testando flex box</title>
     <style>
-
-        *{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-
-        body{
-            background-color: rgb(0, 0, 0);
-        }
-
-        main{
-            background-color: lightgreen;
-            height: 300px;
-            width: 100vw;
-
+        .contender{
+            background-color: rgba(7, 23, 161, 0.349);
             display: flex;
-            justify-content: center;
-            align-items: center;
+            flex-flow: row wrap;
+            align-content: space-evenly;
+            height: 300px;
         }
-
-        section{
-            background-color: lightblue;
-            height: 200px;
-            width: 200px;
+        .item{
+            background-color: red;
+            text-align: center;
+            border: 1px solid black;
+            padding: 30px;
+         
         }
-
     </style>
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Tela de login</h1>
-        </section>
-    </main>
+    <h1>Exmplo de Div com Flex Box</h1>
+        <div class="contender">
+            <div class="item">A</div>
+            <div class="item">B</div>
+            <div class="item">C</div>
+            <div class="item">D</div>
+            <div class="item">E</div>
+            <div class="item">F</div>
+            <div class="item">G</div>
+        </div>
+
 </body>
 </html>
