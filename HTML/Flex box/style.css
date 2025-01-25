@@ -18,14 +18,36 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1{
-    border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
-header nav{
-    border: 1px dotted black;
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.35s;
 }
 
 main{
@@ -33,4 +55,15 @@ main{
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.699);
+}
+
+main h2{
+    padding: 7px;
+    text-align: center;
+    margin: 5px;
+}
+
+main p{
+    text-align: justify;
+    padding: 7px;
 }
