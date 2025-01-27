@@ -7,7 +7,8 @@
 }
 body, html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: skyblue;
+    background: url(imagens/pexels-markusspiske-1089438.jpg) no-repeat;
+    
 
     display: flex;
     justify-content: center;
@@ -22,6 +23,8 @@ main{
     background-color: rgb(25, 25, 107);
     flex-direction: column;
     justify-content: space-between;
+
+    border-radius: 5px;
    
 }
 
@@ -30,10 +33,14 @@ header{
     height: 40%;
     overflow: hidden;
     background-color: black;
+    position: relative;
+    border-radius: 5px;
+    
 }
 
 header img{
 
+    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
