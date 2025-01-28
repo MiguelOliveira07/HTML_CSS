@@ -11,11 +11,12 @@
 }
 
 :root{
-    --royalblue: #017092;
-    --white: #ffffff;
-    --gaismoro: #b3b8cd;
-    --darkslateblue: #292343;
-    --darkgray: #014e4d;   
+    --branco: #ffffff;
+    --branquinho: #F2F2F2;
+    --cafecomleite: #BF8C60;
+    --cinzaclaro: #D9D9D9;
+    --cinzaescuro: #585859;
+    --preto: #0D0D0D;   
 }
 
 body{
@@ -28,12 +29,13 @@ body{
 }
 
 .container{
+    user-select: none;
     margin: 50px auto;
-    background-color: var(--royalblue);
+    background-color: var(--cinzaclaro);
     border-radius: 6px;
     width: 460px;
     text-align: center;
-    box-shadow: 10px 8px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 6px 3px 7px var(--preto);
 }
 
 .bg-capa{
@@ -51,8 +53,8 @@ body{
     border-radius: 70px;
     margin: 95px 0px 0px 260px;
     padding: 5px;
-    background-color: var(--white);
-    border: 3.5px solid var(--royalblue);
+    background-color: var(--cinzaescuro);
+    border: 3.5px solid var(--cinzaclaro);
     
 }
 
@@ -60,8 +62,9 @@ body{
     height: 52px;
     font-size: 40px;
     font-family: Russa;
+    font-weight: 600;
 
-    color: var(--white);
+    color: var(--preto);
 
     margin: 15px -1px -2px -137px;
 }
@@ -79,25 +82,23 @@ button{
 }
 
 .msg_btn, .seguir_btn{
-    background-color: var(--darkgray);
-    border: 1px solid var(--darkgray);
+    background: var(--cinzaclaro);
+    border: 2px solid var(--cinzaescuro);
     padding: 10px 25px;
-    color: var(--white);
-    border-radius: 3px ;
+    color: var(--preto);
+    border-radius: 5px ;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .seguir_btn{
     margin-left: 10px;
-    background: transparent;
-    font-weight: bold;
-    color: var(--darkgray);
 }
 
-.seguir_btn:hover{
-    color: var(--white);
-    background-color: var(--darkgray);
-    transition: 1.5s;
+.seguir_btn:hover, .msg_btn:hover{
+    color: var(--branquinho);
+    background-color: var(--cinzaescuro);
+    transition: 0.8s;
 }
 
 .rodapé img{
