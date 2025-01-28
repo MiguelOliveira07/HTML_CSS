@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+:root{
+
+--ceu: rgba(85, 187, 187, 0.788);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 1em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 20px;
+    background-color: var(--ceu);
+}
+
+a{
+    text-decoration: none;
+}
+
+ menu ul{
+    cursor: pointer;
+    display: flex;
+}
+
+ul li{
+    margin-left: 20px;
+    padding: 10px;
+    
+}
