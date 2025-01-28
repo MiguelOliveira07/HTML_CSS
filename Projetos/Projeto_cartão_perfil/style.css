@@ -5,46 +5,41 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body, html{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: url(imagens/pexels-markusspiske-1089438.jpg) no-repeat;
-    
 
-    display: flex;
-    justify-content: center;
+:root{
+    --royalblue: #017092;
+    --white: #ffffff;
+    --gaismoro: #b3b8cd;
+    --darkslateblue: #292343;
+    --darkgray: #014e4d;   
+}
+
+body{
+    background-image: url(imagens/pexels-markusspiske-1089438.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
-}
-
-main{ 
-    
-    width:70vw;
-    height: 70vh;
-    margin: auto;
-    background-color: rgb(25, 25, 107);
-    flex-direction: column;
-    justify-content: space-between;
-
-    border-radius: 5px;
-   
-}
-
-header{
-    width: 100%;
-    height: 40%;
     overflow: hidden;
-    background-color: black;
-    position: relative;
-    border-radius: 5px;
-    
 }
 
-header img{
+.container{
+    margin: 100px auto;
+    background-color: var(--royalblue);
+    border-radius: 6px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 7px 5px 10px rgba(255, 255, 255, 0.5);
+}
 
-    position: absolute;
+.bg-capa{
+    background: url(imagens/pexels-luis-gomes-166706-546819.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 160px;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    
+    border-radius: 5px 5px 0px 0px;
+
 }
 
 
