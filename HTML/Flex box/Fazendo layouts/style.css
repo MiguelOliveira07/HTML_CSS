@@ -13,6 +13,7 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     font-size: 1em;
+
 }
 
 header{
@@ -38,3 +39,28 @@ ul li{
     padding: 10px;
     
 }
+
+section {
+    display: flex;
+    justify-content: center;
+
+    border: 3px solid black;
+
+    height: 100vh;
+    
+}
+
+section.imagens_principais img{
+    background-position: no-repeat;
+    background-size: contain;
+
+    width: 100%;
+    max-width: 100vw;
+    height: 300px;
+
+    align-content: space-between;
+
+    overflow: hidden;
+}
+
+
