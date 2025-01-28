@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: Russa;
+    src: url(fonte/Strengthen.ttf);
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -15,7 +19,7 @@
 }
 
 body{
-    background-image: url(imagens/pexels-markusspiske-1089438.jpg);
+    background-image: url(imagens/pexels-andrew-2312369.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,12 +28,12 @@ body{
 }
 
 .container{
-    margin: 100px auto;
+    margin: 50px auto;
     background-color: var(--royalblue);
     border-radius: 6px;
-    width: 360px;
+    width: 460px;
     text-align: center;
-    box-shadow: 7px 5px 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 10px 8px 10px rgba(255, 255, 255, 0.5);
 }
 
 .bg-capa{
@@ -39,7 +43,64 @@ body{
     height: 160px;
     width: 100%;
     border-radius: 5px 5px 0px 0px;
-
 }
 
+.foto_perfil{
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    margin: 95px 0px 0px 260px;
+    padding: 5px;
+    background-color: var(--white);
+    border: 3.5px solid var(--royalblue);
+    
+}
 
+.perfil_nome{
+    height: 52px;
+    font-size: 40px;
+    font-family: Russa;
+
+    color: var(--white);
+
+    margin: 15px -1px -2px -137px;
+}
+
+.sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 30px;
+    padding: 5px;
+}
+
+button{
+    margin: 10px 0px 30px 0px;
+}
+
+.msg_btn, .seguir_btn{
+    background-color: var(--darkgray);
+    border: 1px solid var(--darkgray);
+    padding: 10px 25px;
+    color: var(--white);
+    border-radius: 3px ;
+    cursor: pointer;
+}
+
+.seguir_btn{
+    margin-left: 10px;
+    background: transparent;
+    font-weight: bold;
+    color: var(--darkgray);
+}
+
+.seguir_btn:hover{
+    color: var(--white);
+    background-color: var(--darkgray);
+    transition: 1.5s;
+}
+
+.rodapé img{
+    height: 30px;
+    width: 30px;
+}
