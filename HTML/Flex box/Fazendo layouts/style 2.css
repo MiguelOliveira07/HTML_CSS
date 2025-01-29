@@ -48,20 +48,9 @@ h1{
 
 
 
-/* Modelo de layout 01*/
+/* Modelo de layout 02*/
 
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 980px;
-    margin: 0 auto;
-    
-}
 
-.flex div{
-    flex: 1 1 300px;
-    margin: 10px;
-}
 
 
 
