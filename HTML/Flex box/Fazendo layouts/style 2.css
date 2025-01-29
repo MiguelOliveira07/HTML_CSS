@@ -6,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     font-size: 1em;
+    margin-bottom: 10px;
 
 }
 
@@ -43,15 +44,37 @@ ul li{
 
 h1{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
+}
+
+div{
+    border: 1px dotted black;
 }
 
 
 
 /* Modelo de layout 02*/
 
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90vw;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
 
+.grid1 div:nth-child(n + 4){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
 
+.anuncio{
+    grid-column: 1;
+    grid-row: 2 / 5;
+    display: block;
+}
 
 
 
