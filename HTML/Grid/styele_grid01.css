@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+
+
+.grid1 {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 100px);
+
+    justify-content: center;
+    
+    
+    /* quantas colunas, definidas com a largura de 100px */
+
+    /*
+        grid-template-rows: repeat(4, 100px);
+ 
+    Quantidade de inhas configurads com a altura de 40px */
+
+    
+    /* 
+        column-gap: 20px;
+
+    Espaçamentos das colunas */
+    
+    /* 
+        row-gap: 20px;
+    
+    Espaçamento das linhas */
+    
+    /* 
+        gap: 5px;
+    Shorttag */
+
+    /* 
+        grid-auto-rows: 100px;
+    
+    Para as linhas que no tiveram uma confirguração especifica l.7, definimos sua altura */
+
+    /* 
+        grid-auto-columns: 40px;
+
+    Para as colunas que no tiveram uma confirguração especifica l.6, definimos sua largura */
+
+}
+
+.grid1 div {
+    background-color: beige;
+}
+
+.grid1 >div:nth-child(2){
+    align-self: center;
+}
