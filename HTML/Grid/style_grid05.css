@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+    padding-top: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.grid_principal{
+    display: grid;
+
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    grid-template-columns: 1fr;
+    gap: .5rem;
+
+    grid-template-areas: 
+    
+    "header"
+    "hero"
+    "sub"
+    "conteudo"
+    "aside"
+    "rodape"
+    
+    ;
+}
+
+@media  (min-width: 650px) {
+
+    .grid_principal{
+        display: grid;
+    
+        height: 100vh;
+        margin: 0 auto;
+        max-width: 1200px;
+    
+        grid-template-columns: repeat(4, 1fr);
+        gap: .5rem;
+    
+        grid-template-areas: 
+        
+        "header header header header "
+        ".      hero   hero     .       "
+        ".      conteudo conteudo .  "
+        ".      sub    sub       .   "
+        "aside  aside  aside .         "
+        "rodape rodape rodape rodape "
+        
+        
+        ;
+    }
+    
+}
+
+.cabeçalho {
+    background-color: lightblue;
+    grid-area: header;
+}
+.hero {
+    background-color: lightcoral;
+    grid-area: hero;
+}
+.sub {
+    background-color: lightcyan;
+    grid-area: sub;
+}
+.conteudo {
+    background-color: lightgray;
+    grid-area: conteudo;
+}
+.propaganda {
+    background-color: lightgreen;
+    grid-area: aside;
+}
+.rodape {
+    background-color: lightsalmon;
+    grid-area: rodape;
+}
