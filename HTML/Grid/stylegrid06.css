@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mesa {
+    display: grid;
+    gap: .5rem;
+
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+    max-width: 98vw;
+
+    grid-template-areas:
+
+        "title title title title title title"
+        "meta  meta  meta  meta  meta  meta"
+        "copy1 copy1 copy1 copy1 copy1 copy1"
+        "copy2 copy2 copy2 copy2 copy2 copy2"
+        "media media media media media media"
+        "aside aside aside aside aside aside"
+
+    ;
+}
+
+.mesa * {
+    min-height: 110px;
+    padding: 1rem;
+}
+
+.title {
+    background-color: lightblue;
+    grid-area: title;
+}
+
+.meta {
+    background-color: rgb(173, 230, 192);
+    grid-area: meta;
+}
+
+.copy1 {
+    background-color: rgb(221, 173, 230);
+    grid-area: copy1;
+}
+
+.copy2 {
+    background-color: rgb(220, 230, 173);
+    grid-area: copy2;
+}
+
+.media {
+    background-color: rgb(230, 207, 173);
+    grid-area: media;
+}
+
+.aside {
+    background-color: rgb(230, 173, 173);
+    grid-area: aside;
+}
+
+@media screen and (min-width: 600px) {
+    .mesa {
+        grid-template-areas:
+
+            "meta meta title title title title"
+            "copy1 copy1 copy1 copy1 copy1 copy1"
+            "copy2 copy2 copy2 copy2 copy2 copy2"
+            "media media media media media aside"
+
+        ;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+     .mesa {
+        grid-template-areas:
+
+            "meta  title title title copy2 copy2 "
+            "copy1 copy1 copy1 copy1 copy2 copy2 "
+            "media media media media media media "
+            "aside aside .     .     .     .     "
+        ;
+    }  
+}
