@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    display: grid;
+    
+    grid-template-columns: repeat(4, minmax(200px, 300px));
+    gap: .1px;
+
+    justify-items: stretch;
+
+    grid-template-rows: repeat(2, 300px);
+    align-items: stretch;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 34px;
+    margin: 20px;
+
+}
