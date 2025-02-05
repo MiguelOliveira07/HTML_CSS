@@ -1,0 +1,120 @@
+1. Página de Destino Simples (Landing Page)
+Cliente/Empresa:
+"Queremos criar uma página de destino para promover nosso novo produto. O foco é captar informações dos visitantes, então é crucial ter um formulário simples de inscrição. A página precisa ser moderna e com design limpo."
+
+Objetivo:
+Criar uma landing page atrativa e funcional com um formulário para captura de leads.
+
+Requisitos Específicos:
+
+Cabeçalho:
+Um título claro e impactante, como "Descubra o Produto Revolucionário" com uma breve descrição logo abaixo.
+Um botão de chamada para ação (CTA) logo abaixo, como "Saiba Mais".
+Seção de Benefícios:
+Listagem dos principais benefícios do produto, com ícones simples ao lado de cada benefício.
+Formulário de Inscrição:
+Campos simples: Nome, E-mail e um botão "Inscreva-se Agora".
+Validação básica (ex: se o campo de e-mail não for preenchido, mostrar uma mensagem de erro).
+Rodapé:
+Contatos ou links sociais (com uma estrutura simples de lista ou links no rodapé).
+Responsividade:
+Certifique-se de que a página se ajuste bem a diferentes tamanhos de tela (usando @media queries).
+Tecnologias:
+
+HTML: Estruturação de todas as seções (cabeçalho, corpo e rodapé).
+CSS: Layout com Flexbox ou Grid, e animações básicas (transições suaves quando o usuário passa o mouse sobre botões).
+Objetivo Final: Garantir uma boa aparência em diferentes dispositivos e maximizar a conversão.
+2. Portfólio Pessoal Responsivo
+Cliente/Empresa:
+"Preciso de um site de portfólio para mostrar meus trabalhos de design gráfico e web. O layout precisa ser claro, simples e fácil de navegar, com imagens dos meus projetos."
+
+Objetivo:
+Criar um portfólio simples e responsivo para exibir projetos e informações de contato.
+
+Requisitos Específicos:
+
+Página Inicial:
+Apresentação breve com uma descrição do trabalho, algo como "Sou Designer Web, e aqui estão alguns dos meus projetos".
+Lista de projetos com imagens em miniatura e links para detalhes.
+Seção de Projetos:
+Ao clicar em um projeto, o visitante será levado a uma página de detalhes (ou pode ser um modal simples).
+Cada projeto deve ter uma imagem e uma breve descrição.
+Seção de Contato:
+Simples formulário de contato: nome, e-mail, mensagem, com um botão de envio.
+Responsividade:
+Use o Flexbox ou Grid para garantir que a página seja bem adaptada a qualquer dispositivo (p.ex., uma visualização em 2 colunas em telas grandes, e uma coluna em telas pequenas).
+Tecnologias:
+
+HTML: Estrutura de navegação e projetos.
+CSS: Flexbox/Grid para layout responsivo, com algumas transições de hover nos links e imagens.
+Objetivo Final: Criar uma página responsiva que se adapte bem a dispositivos móveis e tenha um design limpo.
+3. Formulário de Contato Interativo
+Cliente/Empresa:
+"Gostaríamos de criar um formulário de contato para o nosso site. Ele precisa ser simples, com validação de campos e uma resposta visual (ex: campo colorido de erro)."
+
+Objetivo:
+Desenvolver um formulário de contato funcional com validação básica usando apenas HTML e CSS.
+
+Requisitos Específicos:
+
+Campos do Formulário:
+Nome, E-mail, Mensagem.
+Um botão de envio.
+Validação Visual:
+Campos obrigatórios. Se o campo for preenchido incorretamente, ele deve ficar vermelho (ex: se o e-mail não for válido, o campo de e-mail deve ficar com uma borda vermelha).
+Ao enviar, mostrar uma mensagem de agradecimento (sem backend, apenas uma resposta visual).
+Responsividade:
+O formulário deve se ajustar bem em dispositivos móveis e desktops.
+Tecnologias:
+
+HTML: Estruturação do formulário.
+CSS: Estilização dos campos e transições de borda, além de responsividade (com @media queries).
+Objetivo Final: Validar o formulário de forma simples e garantir que a página tenha um design responsivo.
+4. Blog Simples com Filtro de Categorias
+Cliente/Empresa:
+"Queremos criar uma página de blog com algumas postagens. Os leitores devem poder filtrar os posts por categorias, como 'Tecnologia', 'Design', 'Marketing'. Gostaria que fosse simples e bem organizado."
+
+Objetivo:
+Criar um blog básico onde as postagens podem ser filtradas por categoria usando apenas HTML e CSS.
+
+Requisitos Específicos:
+
+Exibição de Postagens:
+Exibir 3-5 postagens, com título, resumo e imagem.
+Cada postagem terá uma categoria (ex: "Tecnologia").
+Filtro por Categoria:
+Um menu com links para cada categoria.
+Quando o usuário clicar em uma categoria, apenas as postagens dessa categoria são exibidas (isso pode ser feito com a ajuda de classes CSS).
+Responsividade:
+O blog deve ser legível em qualquer dispositivo, com uma boa estrutura de grid.
+Tecnologias:
+
+HTML: Estrutura para postagens e categorias.
+CSS: Grid ou Flexbox para layout e exibição das postagens. Use transições para o filtro de categorias.
+Objetivo Final: Mostrar habilidade em organizar conteúdo de forma eficiente e responsiva.
+5. Galeria de Imagens com Efeitos de Hover
+Cliente/Empresa:
+"Quero uma galeria de imagens simples, mas elegante, para exibir meus projetos de fotografia. Preciso de efeitos de hover onde a imagem se expanda um pouco e mostre o título do projeto."
+
+Objetivo:
+Criar uma galeria visualmente atraente com efeitos de hover.
+
+Requisitos Específicos:
+
+Exibição de Imagens:
+Exiba várias imagens em um grid.
+Cada imagem terá um título que aparece quando o usuário passa o mouse sobre ela.
+Efeito de Hover:
+Quando o usuário passar o mouse sobre uma imagem, ela deve aumentar um pouco de tamanho e exibir o título.
+Responsividade:
+As imagens devem se ajustar bem ao tamanho da tela, especialmente em dispositivos móveis.
+Tecnologias:
+
+HTML: Estrutura para as imagens e títulos.
+CSS: Grid para layout e transições suaves de hover.
+Objetivo Final: Criar uma galeria limpa, com boa estética e interatividade simples.
+Dicas Gerais para todos os Projetos:
+Validação de Formulários: Use apenas HTML para a estrutura inicial e, quando necessário, adicione CSS para mostrar erros (ex: borda vermelha no campo).
+Responsividade: Certifique-se de usar @media queries para garantir que o layout se ajuste bem a diferentes dispositivos.
+Animações e Transições: Mesmo sendo iniciante, comece a trabalhar com transições suaves (ex: aumentar o tamanho de um botão ou alterar a cor do fundo quando o mouse passa sobre ele).
+Esses projetos devem permitir que você refine suas habilidades em HTML e CSS, abordando tópicos como layout responsivo, interatividade e design visual com animações simples.
