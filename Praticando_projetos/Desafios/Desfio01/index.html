@@ -7,40 +7,6 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
 
-    <!-- 
-            1. Página de Destino Simples (Landing Page)
-    Cliente/Empresa:
-    "Queremos criar uma página de destino para promover nosso novo produto. O foco é captar informações dos visitantes, então é crucial ter um formulário simples de inscrição. A página precisa ser moderna e com design limpo."
- 
-    Objetivo:
-    Criar uma landing page atrativa e funcional com um formulário para captura de leads.
-
-    Requisitos Específicos:
-
-    Cabeçalho:
-    Um título claro e impactante, como "Descubra o Produto Revolucionário" com uma breve descrição logo abaixo.
-    Um botão de chamada para ação (CTA) logo abaixo, como "Saiba Mais".
-    
-    Seção de Benefícios:
-    Listagem dos principais benefícios do produto, com ícones simples ao lado de cada benefício.
-    
-    Formulário de Inscrição:
-    Campos simples: Nome, E-mail e um botão "Inscreva-se Agora".
-    Validação básica (ex: se o campo de e-mail não for preenchido, mostrar uma mensagem de erro).
-    
-    Rodapé:
-    Contatos ou links sociais (com uma estrutura simples de lista ou links no rodapé).
-    
-    Responsividade:
-    Certifique-se de que a página se ajuste bem a diferentes tamanhos de tela (usando @media queries).
-    
-    
-    Tecnologias:
-    HTML: Estruturação de todas as seções (cabeçalho, corpo e rodapé).
-    CSS: Layout com Flexbox ou Grid, e animações básicas (transições suaves quando o usuário passa o mouse sobre botões).
-    Objetivo Final: Garantir uma boa aparência em diferentes dispositivos e maximizar a conversão.
-   -->
-
 </head>
 
 <body>
@@ -55,7 +21,7 @@
     <main>
 
         <fieldset class="fomulario">
-            
+
             <legend>
                 <h2>Cadastre-se aqui:</h2>
             </legend>
@@ -64,25 +30,35 @@
 
 
                 <div class="item" id="item_1">
-                    <label for="inome">Nome</label>
-                    <input type="text" id="inome" autocomplete="off" placeholder="Seu Nome" required>
+                    <input type="text" id="inome" autocomplete="on" placeholder="Digite seu Nome" required>
                 </div>
 
                 <div class="item" id="item_2">
-                    <label for="iemail">Email</label>
-                    <input type="email" id="iemail" autocomplete="off" placeholder="Seu email" required>
+                    <input type="email" id="iemail" autocomplete="on" placeholder="Entre com seu email" required>
                 </div>
 
                 <div class="item" id="item_3">
-                    <label for="isenha">Senha</label>
-                    <input type="password" id="isenha" minlength="8" maxlength="15" required>
+                    <input type="password" id="isenha" minlength="8" maxlength="15" placeholder="Digite sua senha"
+                        required>
                 </div>
 
                 <button type="submit">Inscreva-se</button>
 
             </form>
 
+            <footer>
+                <a href="https://www.instagram.com/_guardiadelivros_/" target="_blank"><img src="Incons/instagram.png"
+                        alt="instagram"></a>
+                <a
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmVGZwMcWjxRnFSGXjPBncRdgNDqPdXtbHtjrQWxvkkCFFWwStZKxGBvrfrwhVwTsbNtRL" target="_blank"><img
+                        src="Incons/email.png" alt="Gmail"></a>
+                <a href="https://www.pinterest.com/marcellesoliveira2009/" target="_blank"><img src="Incons/pinterest.png"
+                        alt="pinterest"></a>
+
+            </footer>
+
         </fieldset>
+
 
     </main>
 </body>
