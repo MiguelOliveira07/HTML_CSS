@@ -167,3 +167,13 @@ footer{
 footer a img:hover{
     transform: scale(1.2);    
 }
+
+@media (max-width: 500px) {
+    html, body{
+        overflow-y: scroll;
+    }
+
+    header  {
+        height: auto;
+    }
+}
