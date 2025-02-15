@@ -53,6 +53,8 @@ Tecnologias:
 HTML: Estrutura de navegação e projetos.
 CSS: Flexbox/Grid para layout responsivo, com algumas transições de hover nos links e imagens.
 Objetivo Final: Criar uma página responsiva que se adapte bem a dispositivos móveis e tenha um design limpo.
+
+
 3. Formulário de Contato Interativo
 Cliente/Empresa:
 "Gostaríamos de criar um formulário de contato para o nosso site. Ele precisa ser simples, com validação de campos e uma resposta visual (ex: campo colorido de erro)."
