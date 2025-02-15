@@ -1,33 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Desafio 03 </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
+        <h1>Desafio 02 - Fale conosco</h1>
         <nav>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Confirações</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Conteudos</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <form action="">
+        <form action="formulario.php">
 
-            <input type="">
+            <label for="inome">Nome</label>
+            <input type="name" required placeholder="Seu Nome" id="inome" name="nnome" required>
+
+            <label for="iemail">Email</label>
+            <input type="email" required placeholder="Email" id="iemail" name="nemail" required>
+
+            <label for="ifeed">Mensagem/Feedback</label>
+            <textarea type="text" required placeholder="Máximo de 300 caracteres" id="ifeed" name="nnome"
+                maxlength="300" required></textarea>
+
+
+            <button>
+                Enviar
+            </button>
 
         </form>
+
     </main>
 
 </body>

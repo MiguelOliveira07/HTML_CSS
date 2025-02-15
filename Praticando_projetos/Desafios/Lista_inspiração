@@ -1,12 +1,9 @@
 1. Página de Destino Simples (Landing Page)
 Cliente/Empresa:
 "Queremos criar uma página de destino para promover nosso novo produto. O foco é captar informações dos visitantes, então é crucial ter um formulário simples de inscrição. A página precisa ser moderna e com design limpo."
-
 Objetivo:
 Criar uma landing page atrativa e funcional com um formulário para captura de leads.
-
 Requisitos Específicos:
-
 Cabeçalho:
 Um título claro e impactante, como "Descubra o Produto Revolucionário" com uma breve descrição logo abaixo.
 Um botão de chamada para ação (CTA) logo abaixo, como "Saiba Mais".
@@ -20,7 +17,6 @@ Contatos ou links sociais (com uma estrutura simples de lista ou links no rodap�
 Responsividade:
 Certifique-se de que a página se ajuste bem a diferentes tamanhos de tela (usando @media queries).
 Tecnologias:
-
 HTML: Estruturação de todas as seções (cabeçalho, corpo e rodapé).
 CSS: Layout com Flexbox ou Grid, e animações básicas (transições suaves quando o usuário passa o mouse sobre botões).
 Objetivo Final: Garantir uma boa aparência em diferentes dispositivos e maximizar a conversão.
@@ -32,12 +28,9 @@ Objetivo Final: Garantir uma boa aparência em diferentes dispositivos e maximiz
 2. Portfólio Pessoal Responsivo
 Cliente/Empresa:
 "Preciso de um site de portfólio para mostrar meus trabalhos de design gráfico e web. O layout precisa ser claro, simples e fácil de navegar, com imagens dos meus projetos."
-
 Objetivo:
 Criar um portfólio simples e responsivo para exibir projetos e informações de contato.
-
 Requisitos Específicos:
-
 Página Inicial:
 Apresentação breve com uma descrição do trabalho, algo como "Sou Designer Web, e aqui estão alguns dos meus projetos".
 Lista de projetos com imagens em miniatura e links para detalhes.
@@ -49,34 +42,29 @@ Simples formulário de contato: nome, e-mail, mensagem, com um botão de envio.
 Responsividade:
 Use o Flexbox ou Grid para garantir que a página seja bem adaptada a qualquer dispositivo (p.ex., uma visualização em 2 colunas em telas grandes, e uma coluna em telas pequenas).
 Tecnologias:
-
 HTML: Estrutura de navegação e projetos.
 CSS: Flexbox/Grid para layout responsivo, com algumas transições de hover nos links e imagens.
 Objetivo Final: Criar uma página responsiva que se adapte bem a dispositivos móveis e tenha um design limpo.
 
-
 3. Formulário de Contato Interativo
 Cliente/Empresa:
 "Gostaríamos de criar um formulário de contato para o nosso site. Ele precisa ser simples, com validação de campos e uma resposta visual (ex: campo colorido de erro)."
-
 Objetivo:
 Desenvolver um formulário de contato funcional com validação básica usando apenas HTML e CSS.
-
 Requisitos Específicos:
-
 Campos do Formulário:
 Nome, E-mail, Mensagem.
 Um botão de envio.
 Validação Visual:
 Campos obrigatórios. Se o campo for preenchido incorretamente, ele deve ficar vermelho (ex: se o e-mail não for válido, o campo de e-mail deve ficar com uma borda vermelha).
-Ao enviar, mostrar uma mensagem de agradecimento (sem backend, apenas uma resposta visual).
+Ao enviar, mostrar uma mensagem de agradecimento (sem backend, apenas uma resposta visual). 
 Responsividade:
 O formulário deve se ajustar bem em dispositivos móveis e desktops.
 Tecnologias:
-
 HTML: Estruturação do formulário.
 CSS: Estilização dos campos e transições de borda, além de responsividade (com @media queries).
 Objetivo Final: Validar o formulário de forma simples e garantir que a página tenha um design responsivo.
+
 4. Blog Simples com Filtro de Categorias
 Cliente/Empresa:
 "Queremos criar uma página de blog com algumas postagens. Os leitores devem poder filtrar os posts por categorias, como 'Tecnologia', 'Design', 'Marketing'. Gostaria que fosse simples e bem organizado."

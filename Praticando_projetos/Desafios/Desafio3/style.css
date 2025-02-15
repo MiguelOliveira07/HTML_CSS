@@ -3,10 +3,100 @@
 * {
     padding: 0px;
     margin: 0px;
+    border-radius: 5px;
 }
 
 body, html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    height: 1200px;
 }
 
+header{
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+header h1{
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+    padding: 10px;
+    background-color: gray;
+    border: 1px solid black;
+    font-weight: 400;
+    transition: 1s;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li:hover{
+    background-color: rgb(66, 62, 62);
+
+    
+}
+
+a:hover{
+    color: white;
+}
+
+main{
+    background-color: rgb(226, 153, 124);
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+form{
+    display: grid;
+}
+
+label{
+    height: 25px;
+    text-align: center;
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input{
+    height: 30px;
+    border: 1px solid black;
+    
+
+}
+
+textarea{
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+form button{
+    background-color: gray;
+    color: #000;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+    transition: 1s;
+}
+
+button:hover{
+    background-color: rgba(114, 240, 103, 0.664);
+}
+
+@media screen and (min-width: 600px) {
+    header{
+        background-color: beige;
+    }
+}
