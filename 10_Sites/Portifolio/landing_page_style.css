@@ -70,7 +70,6 @@ nav ul {
     justify-content: center;
     padding: 20px;
     height: 20px;
-    transition: 1.2s;
     margin-left: 3px;
 
 }
@@ -175,10 +174,9 @@ footer nav a img{
         color: var(--marrom_quente);
         font-weight: 800;
         border-radius: 8px 8px 0px 0px;
-        transition: background-color 0.6s;
-        transition: 1.2s;
-        
+        transition: background-color 0.6s; 
     }
+
 
     section p{
         position: absolute;
@@ -197,6 +195,6 @@ footer nav a img{
         font-size: 1rem;
         color: var(--offwhite);
     }
-    
 
+    
 }
