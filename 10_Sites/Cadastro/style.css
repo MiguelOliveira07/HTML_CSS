@@ -12,7 +12,7 @@
     --ciano_leve: #C4EEF2;
     --marrom: #A67458;
 
-    --sombra: 2px 3px 3px var(--preto);
+    --sombra: 2px 2px 9px var(--preto);
 
 
 }
@@ -33,7 +33,9 @@ main.container{
     justify-content: center;
     align-items: center;
 
-    background-image: linear-gradient(43deg,var(--preto) 1%, var(--azul_principal) 22%, var(--azul_forte) 33%, var(--azul_claro) 74%, var(--branco))
+    background-image: linear-gradient(43deg,var(--preto) 1%, var(--azul_principal) 22%, var(--azul_forte) 33%, var(--azul_claro) 74%, var(--branco));
+
+    
 }
 
 form {
@@ -47,7 +49,8 @@ form {
     padding: 6px;
     border-radius: 8px;
     
-    background-color: rgba(0, 0, 0, 0.320); 
+    background-color: rgba(0, 0, 0, 0.210); 
+    box-shadow: var(--sombra);
 }
 
 main form h1{
@@ -84,3 +87,18 @@ form input.entrada_user{
     padding-left: 8px;
 }
 
+form p a{
+    text-decoration: none;
+    color: var(--ciano_leve);
+    font-size: 0.8rem;
+}
+
+form .enter{
+    background-color: var(--azul_claro) ;
+    border-radius: 4px;
+    border: none;
+    width: 50%;
+    height: 10%;
+    margin: 10px;
+    box-shadow: var(--sombra);
+}
