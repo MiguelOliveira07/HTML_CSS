@@ -4,8 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="container">
+        <form action="cadastro.php" method="post">
+
+            <h1>Login</h1>
+
+            <button class="escolha">Login</button>
+            <button class="escolha">Cadastro</button>
+
+            <input type="email" required placeholder="Enter with your email acount" class="entrada_user">
+            <input type="password" required min="8" max="20" placeholder="Enter with your password" class="entrada_user">
+            <p><a href="#">Forgot password?</a></p>
+
+            <button class="enter">Enter</button>
+            
+            <p>Don't have a password? <a href="#">Sing-up</a></p>
+        </form>
+    </main>
 </body>
 </html>

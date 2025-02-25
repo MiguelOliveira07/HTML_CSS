@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+:root {
+
+    --branco: #fff;
+    --preto: #000;
+
+    --azul_principal: #0c3b41;
+    --azul_forte: #025159;
+    --azul_ciano: #3E848C;
+    --azul_claro: #7AB8BF;
+    --ciano_leve: #C4EEF2;
+    --marrom: #A67458;
+
+    --sombra: 2px 3px 3px var(--preto);
+
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(43deg,var(--preto) 1%, var(--azul_principal) 22%, var(--azul_forte) 33%, var(--azul_claro) 74%, var(--branco))
+}
+
+form {
+    width: 65vh;
+    height: 65vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    padding: 6px;
+    border-radius: 8px;
+    
+    background-color: rgba(0, 0, 0, 0.320); 
+}
+
+main form h1{
+    align-self: center;
+    font-size: 2rem;
+    padding: 2px;
+    margin: 2px;
+    color: var(--branco);
+}
+
+ form .escolha{
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%; 
+    border: none;
+    margin: 5px;
+    
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+form input.entrada_user{
+    font-size: 1.2rem;
+    width: 97%;
+    border: none;
+    height: 50px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    border-radius: 8px;
+    justify-content: center;
+    align-self: center;
+    padding-left: 8px;
+}
+
