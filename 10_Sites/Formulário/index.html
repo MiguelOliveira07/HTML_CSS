@@ -11,19 +11,41 @@
 
     <div>
         <h1>Cadastro DEV</h1>
-        <p>Complete todas as infromações.</p>
+        <p>Complete todas as infromações. b </p>
     </div>
 
-    <form >
-        <fieldset >
-            <legend>infromações pessoais</legend>
+    <form>
+        <fieldset>
+            <legend>Infromações pessoais</legend>
             <div>
                 <label for="inome">Nome</label>
-                <input type="text" name="nome" id="inome" required>
+                <input type="text" id="inome" name="nome" required>
             </div>
             <div>
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome" required>
+                <label for="isobrenome">Sobrenome</label>
+                <input type="text" id="isobrenome" name="sobrenome" required>
+            </div>
+            <div>
+                <label for="inum">Número</label>
+                <input type="number" min="1" max="255" id="inum" name="num">
+                <input type="tel" min="10" max="11" required id="inum" name="num">
+            </div>
+
+            <div>
+                <label for="iend">Endereço</label>
+                <input type="text" placeholder="Rua, Nº" id="iend" name="end" required>
+                <label for="ipais">País</label>
+                <input type="text" placeholder="Seu país" list="pais" id="ipais" name="pais" required>
+                <datalist id="ipais">
+                    <option value="Brazil"></option>
+                    <option value="Estados unidos"></option>
+                    <option value="China"></option>
+                    <option value="Russia"></option>
+                </datalist>
+            </div>
+            <div>
+                <input type="checkbox" id="ihtml" name="html" value="HTML-CSS">
+                <label for="ihmtl">Html-Css</label>
             </div>
         </fieldset>
     </form>
