@@ -38,9 +38,11 @@ main.container{
     
 }
 
+
+
 form {
-    width: 65vh;
-    height: 65vh;
+    width: 60vh;
+    height: 50vh;
 
     display: flex;
     flex-flow: column nowrap;
@@ -61,19 +63,6 @@ main form h1{
     color: var(--branco);
 }
 
- form .escolha{
-    display: flex;
-    flex-flow: row wrap;
-    width: 80%; 
-    border: none;
-    margin: 5px;
-    
-    height: 45px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 16px;
-}
-
 form input.entrada_user{
     font-size: 1.2rem;
     width: 97%;
@@ -85,6 +74,13 @@ form input.entrada_user{
     justify-content: center;
     align-self: center;
     padding-left: 8px;
+}
+
+form p{
+    color: var(--preto);
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 10px;
 }
 
 form p a{
@@ -101,4 +97,5 @@ form .enter{
     height: 10%;
     margin: 10px;
     box-shadow: var(--sombra);
+    font-weight: 700;
 }
