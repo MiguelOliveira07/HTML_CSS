@@ -19,7 +19,7 @@ main {
     width: 100vw;
     height: 100vh;
 
-    background: linear-gradient(130deg, #D600C0 20%,#AC1D9D 42%,#812B79 56%,#572B52 78%,#332231 119%);
+    background: linear-gradient(130deg,#322233 3%, #AC1D9D 24%,#D600C0 40%, #00D6D0 60%,#1DACA7 77%,#223332 97%);
 
     display: flex;
     justify-content: center;
