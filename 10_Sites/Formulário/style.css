@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+:root {
+
+    --amarelo: #DBB404;
+    --rosa: #DB04BB;
+    --ciano: #05DBCE;
+}
+
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(130deg, #D600C0 20%,#AC1D9D 42%,#812B79 56%,#572B52 78%,#332231 119%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: center;
+
+    height: 50%;
+    width: 40%;
+}
+
+form fieldset{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.550);
+}

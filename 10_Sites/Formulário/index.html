@@ -5,49 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div>
-        <h1>Cadastro DEV</h1>
-        <p>Complete todas as infromações. b </p>
-    </div>
+    <header class="cabecalho">
+        <div class="titulo">
+            <h1>Cadastro DEV</h1>
+            <p>Complete todas as infromações</p>
+        </div>
+    </header>
 
-    <form>
-        <fieldset>
-            <legend>Infromações pessoais</legend>
-            <div>
-                <label for="inome">Nome</label>
-                <input type="text" id="inome" name="nome" required>
-            </div>
-            <div>
-                <label for="isobrenome">Sobrenome</label>
-                <input type="text" id="isobrenome" name="sobrenome" required>
-            </div>
-            <div>
-                <label for="inum">Número</label>
-                <input type="number" min="1" max="255" id="inum" name="num">
-                <input type="tel" min="10" max="11" required id="inum" name="num">
-            </div>
-
-            <div>
-                <label for="iend">Endereço</label>
-                <input type="text" placeholder="Rua, Nº" id="iend" name="end" required>
-                <label for="ipais">País</label>
-                <input type="text" placeholder="Seu país" list="pais" id="ipais" name="pais" required>
-                <datalist id="ipais">
-                    <option value="Brazil"></option>
-                    <option value="Estados unidos"></option>
-                    <option value="China"></option>
-                    <option value="Russia"></option>
-                </datalist>
-            </div>
-            <div>
-                <input type="checkbox" id="ihtml" name="html" value="HTML-CSS">
-                <label for="ihmtl">Html-Css</label>
-            </div>
-        </fieldset>
+    <main>   
+        <form>
+            <fieldset>
+                <legend id="legenda">Infromações pessoais</legend>
+                <div class="nome">
+                    <label for="inome">Nome</label>
+                    <input type="text" id="inome" name="nome" required placeholder="Digite seu nome">
+                    <input type="text" id="isobrenome" name="sobrenome" required placeholder="Sobrenome">
+                </div>
+                <div class="comunicacao">
+                    <label for="inum">Número</label>
+                    <input type="number" min="1" max="255" id="inum" name="num" placeholder="+55">
+                    <input type="tel" min="10" max="11" required id="inum" name="num" placeholder="12345-6789">
+                    <label for="imail">Email</label>
+                    <input type="email" required placeholder="seuemail@gmail.com">
+                </div>
+                <div class="endereço">
+                    <label for="iend">Endereço</label>
+                    <input type="text" placeholder="Rua, Nº" id="iend" name="end" required>
+                    <label for="ipais">País</label>
+                    <input type="text" placeholder="Seu país" list="pais" id="ipais" name="pais" required>
+                    <datalist id="ipais">
+                        <option value="Brazil"></option>
+                        <option value="Estados unidos"></option>
+                        <option value="China"></option>
+                        <option value="Russia"></option>
+                    </datalist>
+                </div>
+                <div class="linguagens">
+                    <input type="checkbox" id="ihtml" name="html" value="HTML-CSS">
+                    <label for="ihmtl">Html-Css</label>
+                    <input type="checkbox" id="ijs" name="js" value="JavaScript">
+                    <label for="ijs">JavaScript</label>
+                    <input type="checkbox" id="ipy" name="py" value="Python">
+                    <label for="ipy">Pyhton</label>
+                    <input type="checkbox" id="ijava" name="java" value="Java">
+                    <label for="ijava">Java</label>
+                    <input type="checkbox" id="ic" name="c" value="c++">
+                    <label for="ic">C++</label>
+                    <input type="checkbox" id="ic#" name="c#" value="c#">
+                    <label for="ic#">C#</label>
+                </div>
+                <div class="sobre_voce">
+                    <label for="itext">Sua trajetótia profissional:</label>
+                    <input type="text" required placeholder="Nos conte suas experiências...">
+                </div>
+            </fieldset>
+    </main>
     </form>
 
 </body>
