@@ -57,6 +57,7 @@ form{
 
     height: 400px;
     width: 80%;
+
 }
 
 form fieldset{
@@ -65,4 +66,15 @@ form fieldset{
     border: none;
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0.550);
+    box-shadow: 1px 1px 5px black;
+}
+
+#str{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #ffe600;
+    background-color: rgba(194, 175, 66, 0.589);
+    border-radius: 7px;
+    padding: 4px;
 }
