@@ -7,24 +7,24 @@
     --ciano: #05DBCE;
 }
 
-*{
-     margin: 0px;
-     padding: 0px;
-     box-sizing: border-box;
-     font-family: Arial, Helvetica, sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
-header{
+header {
     height: 25%;
     justify-items: center;
     padding: 10px;
     background-color: #234d4abd;
-    
+
 }
 
 
-header h1{
+header h1 {
     text-align: center;
     justify-content: center;
     font-size: 2rem;
@@ -35,7 +35,7 @@ header h1{
     font-family: 'Courier New', Courier, monospace;
 }
 
-header p{
+header p {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     color: var(--amarelo);
@@ -45,9 +45,9 @@ header p{
 
 main {
     width: 100%;
-    height: 1100px;
+    height: 1000px;
 
-    background: linear-gradient(130deg,#322233 3%, #AC1D9D 24%,#D600C0 40%, #00D6D0 60%,#1DACA7 77%,#223332 97%);
+    background: linear-gradient(130deg, #322233 3%, #AC1D9D 24%, #D600C0 40%, #00D6D0 60%, #1DACA7 77%, #223332 97%);
 
     display: flex;
     justify-content: center;
@@ -55,29 +55,28 @@ main {
     flex-direction: column
 }
 
-form{
+form {
     display: flex;
     flex-flow: column nowrap;
     align-self: center;
-    justify-content: center ;
+    justify-content: center;
 
-    height: 70%;
+    height: auto;
     width: 80%;
 
     font-weight: 100;
 
 }
 
-form fieldset{
-    height: auto;
+form fieldset {
     padding: 10px;
     border: none;
     border-radius: 6px;
-    background-color: rgba(255, 255, 255, 0.550);
+    background-color: rgba(112, 104, 104, 0.55);
     box-shadow: 1px 1px 5px black;
 }
 
-#str{
+#str {
     display: flex;
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -91,21 +90,21 @@ form fieldset{
     margin-bottom: 5px;
 }
 
-.label{
+.label {
     margin: 3px;
     padding: 5px;
     color: var(--amarelo);
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 2px black;
     font-weight: 600;
-    
+
 }
 
-input{
+input {
     margin-top: 3px;
     padding: 3px;
 }
 
-.nome{
+.nome {
     padding: 5px;
     width: auto;
 }
@@ -115,25 +114,31 @@ input{
     width: auto;
     display: flex;
     flex-direction: column;
+    
 }
 
+.comunicacao div input,label{
+    text-shadow: 0px 1px 2px black;
+}
 
-.endereço{
+.endereço {
     padding: 5px;
     width: auto;
 }
 
-.linguagens{
+.linguagens {
+    padding: 5px;
+    width: auto;
+    color: var(--amarelo);
+    font-weight: 700;
+}
+
+.sobre_voce {
     padding: 5px;
     width: auto;
 }
 
-.sobre_voce{
-    padding: 5px;
-    width: auto;
-}
-
-.sobre_voce input{
+.sobre_voce input {
     width: 230px;
     height: 300px;
     justify-content: flex-start;
@@ -141,61 +146,86 @@ input{
 
 
 
-@media screen and (min-width: 343px) and (max-width:565px){
-    header{
-        background-color: #00d6b2;
+@media screen and (min-width: 343px) and (max-width:565px) {
+    header {
+        background-color: #2c8374;
+
     }
-    
-    .label{
-        margin: 3px;
-        padding: 5px;
-        color: var(--amarelo);
-        text-shadow: 1px 1px 1px black;
-        font-weight: 600;
-        
+
+    main {
+        height: 1200px;
     }
-    
-    input{
-        margin-top: 3px;
-        padding: 3px;
+
+    form {
+        height: 900px;
     }
-    
-    .nome{
-        padding: 5px;
-        width: auto;
+
+    form fieldset {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.50);
+        box-shadow: 2px 2px 6px rgb(0, 0, 0);
     }
-    
+
+
+    #str {
+        display: block;
+        color: gold;
+        text-shadow: 1px 2px 2px black;
+        background-color: rgba(184, 166, 64, 0.589);
+        text-align: center;
+    }
+
+    .label {
+        color: rgba(255, 251, 0, 0.849);
+        text-shadow: 1px 1px 2px black;
+    }
+
+    .nome {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
     .comunicacao {
         padding: 5px;
         width: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: column no wrap;
     }
-    
-    
-    .endereço{
+
+
+    .endereço {
         padding: 5px;
         width: auto;
     }
-    
-    .linguagens{
+
+    .linguagens {
+        
+        background: rgba(0, 0, 0, 0.450);
+        color: rgba(255, 251, 0, 0.849);
+        border-radius: 6px ;
+        display: flex;
+        flex-flow: column nowrap;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+    }   
+
+    .linguagens div{
         padding: 5px;
+    }
+
+
+    .sobre_voce {
+        padding-left: 5px;
         width: auto;
     }
-    
-    .sobre_voce{
-        padding: 5px;
-        width: auto;
-    }
-    
-    .sobre_voce input{
+
+    .sobre_voce input {
         width: 230px;
         height: 300px;
         justify-content: flex-start;
     }
-    
+
 }
 
-@media screen and (min-width: 565px) {
-    
-}
+
+@media screen and (min-width: 565px) {}
