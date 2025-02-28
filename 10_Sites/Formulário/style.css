@@ -18,14 +18,18 @@
 header{
     height: 20vh;
     justify-items: center;
-    padding-top: 30px;
+    padding: 10px;
     background-color: #234d4abd;
     
 }
 
 header h1{
+    text-align: center;
+    justify-content: center;
     font-size: 2rem;
-    color: #DBB404;
+    color: var(--amarelo);
+    text-shadow: 1px 1px 1px black;
+    font-weight: 600;
     padding: 10px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -33,13 +37,14 @@ header h1{
 header p{
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    color: #DBB404;
-    
+    color: var(--amarelo);
+    text-shadow: 1px 1px 1px black;
+    font-weight: 600;
 }
 
 main {
     width: 100%;
-    height: 100vh;
+    height: 1100px;
 
     background: linear-gradient(130deg,#322233 3%, #AC1D9D 24%,#D600C0 40%, #00D6D0 60%,#1DACA7 77%,#223332 97%);
 
@@ -58,10 +63,12 @@ form{
     height: 400px;
     width: 80%;
 
+    font-weight: 100;
+
 }
 
 form fieldset{
-    height: 100vh;
+    height: auto;
     padding: 10px;
     border: none;
     border-radius: 6px;
@@ -70,11 +77,71 @@ form fieldset{
 }
 
 #str{
+    display: flex;
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    color: #ffe600;
+    color: var(--amarelo);
+    text-shadow: 1px 1px 1px black;
+    font-weight: 600;
     background-color: rgba(194, 175, 66, 0.589);
     border-radius: 7px;
     padding: 4px;
+    margin-bottom: 5px;
+}
+
+.label{
+    margin: 3px;
+    padding: 5px;
+    color: var(--amarelo);
+    text-shadow: 1px 1px 1px black;
+    font-weight: 600;
+    
+}
+
+input{
+    margin-top: 3px;
+    padding: 3px;
+}
+
+.nome{
+    padding: 5px;
+    width: auto;
+}
+
+.comunicacao {
+    padding: 5px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.endereço{
+    padding: 5px;
+    width: auto;
+}
+
+.linguagens{
+    padding: 5px;
+    width: auto;
+}
+
+.sobre_voce{
+    padding: 5px;
+    width: auto;
+}
+
+.sobre_voce input{
+    width: 230px;
+    height: 300px;
+    justify-content: flex-start;
+}
+
+
+
+@media screen and (min-width:500px){
+    main{
+        background-color: #00D6D0;
+    }
 }
