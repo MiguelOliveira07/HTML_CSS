@@ -16,12 +16,13 @@
 }
 
 header{
-    height: 20vh;
+    height: 25%;
     justify-items: center;
     padding: 10px;
     background-color: #234d4abd;
     
 }
+
 
 header h1{
     text-align: center;
@@ -60,7 +61,7 @@ form{
     align-self: center;
     justify-content: center ;
 
-    height: 400px;
+    height: 70%;
     width: 80%;
 
     font-weight: 100;
@@ -140,8 +141,61 @@ input{
 
 
 
-@media screen and (min-width:500px){
-    main{
-        background-color: #00D6D0;
+@media screen and (min-width: 343px) and (max-width:565px){
+    header{
+        background-color: #00d6b2;
     }
+    
+    .label{
+        margin: 3px;
+        padding: 5px;
+        color: var(--amarelo);
+        text-shadow: 1px 1px 1px black;
+        font-weight: 600;
+        
+    }
+    
+    input{
+        margin-top: 3px;
+        padding: 3px;
+    }
+    
+    .nome{
+        padding: 5px;
+        width: auto;
+    }
+    
+    .comunicacao {
+        padding: 5px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .endereço{
+        padding: 5px;
+        width: auto;
+    }
+    
+    .linguagens{
+        padding: 5px;
+        width: auto;
+    }
+    
+    .sobre_voce{
+        padding: 5px;
+        width: auto;
+    }
+    
+    .sobre_voce input{
+        width: 230px;
+        height: 300px;
+        justify-content: flex-start;
+    }
+    
+}
+
+@media screen and (min-width: 565px) {
+    
 }
