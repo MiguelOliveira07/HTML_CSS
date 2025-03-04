@@ -1,0 +1,30 @@
+ Descrição do Site  
+
+Nome: "Galeria Criativa" (ou outro nome que preferir)  
+Objetivo: Criar um catálogo organizado para exibir suas criações, separadas por categorias.  
+
+ Seções do Site:  
+1. Página Inicial:  
+   - Um banner chamativo com uma frase de impacto (ex: "Explore a criatividade através da minha lente!").  
+   - Botões de navegação para as categorias.  
+
+2. Galeria (Catálogo):  
+   - Dividida em seções como "Fotografia", "Edições", "Desenhos".  
+   - Miniaturas dos trabalhos, que ao clicar expandem em tamanho maior.  
+
+3. Sobre Mim:  
+   - Pequena bio sobre você e seu processo criativo.  
+   - Link para redes sociais (Instagram, por exemplo).  
+
+4. Contato:  
+   - Um formulário para mensagens ou um botão de e-mail/WhatsApp.  
+
+---
+
+ Recursos com HTML e CSS  
+✅ Grid ou Flexbox para organizar os itens do catálogo.  
+✅ Hover Effects para destacar imagens quando o usuário passa o mouse.  
+✅ Modal (lightbox) simples em CSS para abrir imagens em tamanho maior.  
+✅ Responsividade, para ficar bonito tanto no PC quanto no celular.  
+
+O que acha dessa ideia? Quer adicionar alguma coisa diferente? 😃
