@@ -17,7 +17,6 @@ body{
 }
 
 header{
-    background-color: skyblue;
 }
 
 main{
@@ -30,12 +29,16 @@ header{
     flex-flow: column nowrap;
     justify-items: center;
     align-items: center;
+    background-color: skyblue;
+    height: 109px;
 }
 
 header h1{
     width: 100%;
     text-align: center;
-    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-shadow: 1px 1px 3px black;
 }
 
 header nav{
@@ -46,16 +49,34 @@ header nav ul{
     display: flex;
     flex-flow: row;
     justify-content: center;
+    
 }
 
 header nav ul li {
     
     list-style: none;
+    justify-self: center;
+    align-content: center; 
     width: 100%;
-    height: 30px;
-    padding: 3px;
-    
+    height: 40px;
+    margin: 5px;
+    background-color: #439FE0; 
+    text-align: center;
+    border-radius: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 1px 1px 5px black;
+    transition: 0.6s;
 }
+
+header nav ul li:hover {
+    
+    background-color: skyblue;
+    box-shadow: 1px 1px 1px black;
+    margin: 8px;
+    color: white;
+
+}
+
 
 .card div {
     display: flex;
