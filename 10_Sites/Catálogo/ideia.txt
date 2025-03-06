@@ -1,0 +1,43 @@
+Beleza! Aqui estão as ideias para o **visual e organização do catálogo**, focado em **mobile first**:  
+
+---
+
+### **📱 Layout Geral**  
+- **Cards empilhados (1 por linha)** → Melhor para navegação em telas pequenas.  
+- **Espaçamento entre os cards** → Para não ficar poluído e facilitar a visualização.  
+- **Barra de pesquisa ou filtros** → Para buscar por nome, ano ou preço.  
+
+---
+
+### **🎨 Estilo dos Cards**  
+- **Imagem do carro no topo** → Ocupando um espaço fixo para manter o design alinhado.  
+- **Nome do carro grande e destacado** → Fonte chamativa e de fácil leitura.  
+- **Ano e preço em evidência** → Colocados logo abaixo do nome, com cor diferenciada.  
+- **Pequena descrição** → No máximo duas linhas, para não poluir a tela.  
+- **Botão "Saiba Mais" grande e chamativo** → Para facilitar o clique/touch.  
+
+---
+
+### **🌈 Cores e Estilo**  
+- **Fundo claro ou cinza neutro** → Para destacar os carros.  
+- **Cores contrastantes para preço e botões** → Exemplo: verde para preço, azul para botão.  
+- **Sombras suaves nos cards** → Para dar um efeito "flutuante" e destacar cada item.  
+
+---
+
+### **📏 Organização e Responsividade**  
+- **Cards com largura de 100%, mas com um tamanho máximo** → Para manter o equilíbrio em telas maiores.  
+- **Imagens ajustadas para não distorcer** → Sempre focando no centro do carro.  
+- **Texto alinhado e legível** → Fonte sem serifa, com espaçamento confortável.  
+
+---
+
+### **Extras para Melhorar a Experiência**  
+✅ **Animação leve nos botões e cards** ao passar o dedo/mouse.  
+✅ **Filtro por categoria** (Populares, Esportivos, Muscle Cars).  
+✅ **Botão de "Favoritar"** para marcar os carros preferidos.  
+✅ **Modo escuro opcional** para quem curte um visual mais estiloso.  
+
+---
+
+💡 **O que acha dessas ideias? Quer algo mais minimalista ou mais chamativo?** 🚗🔥
