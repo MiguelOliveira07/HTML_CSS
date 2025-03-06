@@ -1,4 +1,19 @@
-@charset "UTF-8";
+ @charset "UTF-8";
+
+ @font-face {
+    font-family: Titulo;
+    src: url(fontes/Ubuntu/Ubuntu-MediumItalic.ttf);
+ }
+
+ @font-face {
+    font-family: Corpo;
+    src: url(fontes/Ubuntu/Ubuntu-Regular.ttf);
+ }
+ 
+@font-face {
+    font-family: Preço;
+    src: url(fontes/Ubuntu/Ubuntu-Italic.ttf);
+}
 
 * {
     padding: 0px;
@@ -6,7 +21,7 @@
     box-sizing: border-box;
 }
 
-body {
+body {     
     display: flex;
     flex-flow: column;
     max-width: 100%;
@@ -31,7 +46,7 @@ header h1 {
     text-align: center;
     height: 50px;
     padding: 10px;
-    text-shadow: 1px 1px 3px black;
+    font-family: Titulo;
 }
 
 header nav {
@@ -66,27 +81,101 @@ main {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    
+    
+}
 
+main div div{
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 70vw;
-    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
     background-color: white;
     text-align: center;
     padding: 5px;
     margin: 5px;
+    background-color: rgba(161, 156, 156, 0.116);
 }
 
 .card img {
     width: 100%;
-    height: 250px;
+    height: 160px;
     object-fit: cover;
     object-position: bottom;
     border-radius: 8px;
+}
+
+.card h1{
+    font-family: Titulo;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.card p{
+    font-family: Corpo;
+    font-size: .9rem;
+    padding: 10px;
+}
+
+.card span{
+    font-family: preço;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.card button{
+    width: 40%;
+    height: 30px;
+    align-self: center;
+    background-color: #e61c1c;
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    transition: .5s;
+}
+
+.card button:hover{
+    background-color: rgba(81, 224, 88, 0.911);
+    color: black;
+    
+}
+
+@media  (min-width: 550px){
+
+    body{
+        background-color: rgb(237, 238, 202);
+    }
+
+    header nav{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    header nav ul {
+        width: 60vw; 
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .card {
+        max-height: 370px;
+    }
+
 }
