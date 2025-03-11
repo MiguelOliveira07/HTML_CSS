@@ -1,5 +1,16 @@
 @charset "UTF_8";
 
+@font-face {
+    font-family: Titulo;
+    src: url(fonts/deutsch_gothic/Deutsch.ttf);
+
+    font-family: corpo;
+    src: url(fonts/Newsreader_Ubuntu/Ubuntu/Ubuntu-BoldItalic.ttf);
+    
+    font-family: conteudo;
+    src: url(fonts/Newsreader_Ubuntu/Newsreader/Newsreader-VariableFont_opsz\,wght.ttf);
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -34,7 +45,7 @@ header h1{
     position: relative;
     align-self: flex-end;
     padding-top: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Titulo
 }
 header nav{
     padding: 10px;
@@ -48,12 +59,13 @@ header nav{
 header nav li{
     font-size: 1.1rem;
     padding: 6px;
-    background-color: rgba(158, 165, 172, 0.281);
+    
    
 }
 
 header nav li:hover {
     background-color: rgba(48, 56, 65, 0.281);
+    border-radius: 6px;
 }
 
 section {
@@ -72,5 +84,34 @@ section {
 .titulo{
     font-size: 2rem;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: corpo;
+    padding: 20px;
+}
+
+.noticias_principais{
+    padding: 5px;
+    font-family: conteudo;
+    text-indent: 25px;
+    line-height: 1.3rem;
+    word-spacing: 1px;
+    text-align: justify;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+}
+
+iframe{
+    max-width: 99%;
+    max-height: 50vh;
+}
+
+.noticias_principais h1{
+    color: rgb(240, 30, 30);   
+    font-size: 1.4rem;
+    font-family: titulo;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.200);
+}
+
+.secundaria{
+    margin: 5px;
+    padding: 5px;
+    height: auto;
 }
