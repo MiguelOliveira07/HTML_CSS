@@ -22,6 +22,9 @@ body{
     padding: 0px;
     display: flex;
     flex-direction: column;
+    max-width: 95vw;
+    margin: 0 auto;
+    align-items: center;
 }
 
 header{
@@ -29,6 +32,7 @@ header{
     flex-flow: column;
     padding: 10px;
     height: 100%;
+    width: 100vw;
     align-content: flex-end;
     background-color: rgba(192, 221, 221, 0.637);
 }
@@ -69,15 +73,12 @@ header nav li:hover {
 }
 
 section {
-    max-width: 95vw;
     padding: 10px;
     display: flex;
     flex-flow: column nowrap;
     overflow: hidden;
-    background-color: beige;
-
-    margin: 0 auto; 
-    align-self: center; 
+    background-color: rgb(245, 245, 200)
+     
 
 }
 
@@ -95,7 +96,7 @@ section {
     line-height: 1.3rem;
     word-spacing: 1px;
     text-align: justify;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.514);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.555);
 }
 
 iframe{
@@ -104,14 +105,57 @@ iframe{
 }
 
 .noticias_principais h1{
+    padding: 6px;
     color: rgb(240, 30, 30);   
     font-size: 1.4rem;
     font-family: titulo;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.200);
 }
 
-.secundaria{
+.secundarias{
+    display: flex;
+    flex-flow: column nowrap;
     margin: 5px;
     padding: 5px;
     height: auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.555);
 }
+
+.reserva{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    font-size: 1.2rem; 
+    font-family: titulo; 
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: justify;
+    
+}
+
+.reserva a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(225, 19, 19);
+}
+
+.reserva img {
+    width: 180px; 
+    height: 100px;
+    padding: 5px; 
+}
+
+footer{
+
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+footer img{
+    height: 30px;
+}
+
+
