@@ -6,19 +6,19 @@
 
     font-family: corpo;
     src: url(fonts/Newsreader_Ubuntu/Ubuntu/Ubuntu-BoldItalic.ttf);
-    
+
     font-family: conteudo;
     src: url(fonts/Newsreader_Ubuntu/Newsreader/Newsreader-VariableFont_opsz\,wght.ttf);
 }
 
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 
-header{
+header {
     display: flex;
     flex-flow: column;
     padding: 10px;
@@ -37,34 +37,35 @@ header{
     background-color: rgba(192, 221, 221, 0.637);
 }
 
-header img{
+header img {
     width: 90px;
     height: 80px;
     position: absolute;
 
 }
 
-header h1{
+header h1 {
     font-size: 2rem;
     position: relative;
     align-self: flex-end;
     padding-top: 10px;
     font-family: Titulo
 }
-header nav{
+
+header nav {
     padding: 10px;
     display: flex;
     align-content: center;
     align-self: flex-end;
     list-style: none;
-    
+
 }
 
-header nav li{
+header nav li {
     font-size: 1.1rem;
     padding: 6px;
-    
-   
+
+
 }
 
 header nav li:hover {
@@ -78,18 +79,16 @@ section {
     flex-flow: column nowrap;
     overflow: hidden;
     background-color: rgb(245, 245, 200)
-     
-
 }
 
-.titulo{
+.titulo {
     font-size: 2rem;
     text-align: center;
     font-family: corpo;
     padding: 20px;
 }
 
-.noticias_principais{
+.noticias_principais {
     padding: 5px;
     font-family: conteudo;
     text-indent: 25px;
@@ -99,20 +98,21 @@ section {
     border-bottom: 1px solid rgba(128, 128, 128, 0.555);
 }
 
-iframe{
+iframe {
     max-width: 99%;
     max-height: 50vh;
+    position: static;
 }
 
-.noticias_principais h1{
-    padding: 6px;
-    color: rgb(240, 30, 30);   
+.noticias_principais h1 {
+    padding: 10px;
+    color: rgb(240, 30, 30);
     font-size: 1.4rem;
     font-family: titulo;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.200);
 }
 
-.secundarias{
+.secundarias {
     display: flex;
     flex-flow: column nowrap;
     margin: 5px;
@@ -121,41 +121,90 @@ iframe{
     border-bottom: 1px solid rgba(128, 128, 128, 0.555);
 }
 
-.reserva{
+.reserva {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     position: relative;
-    font-size: 1.2rem; 
-    font-family: titulo; 
+    font-size: 1.2rem;
+    font-family: titulo;
     font-weight: 600;
     margin-bottom: 10px;
     text-align: justify;
-    
+
 }
 
-.reserva a{
+.reserva a {
     display: flex;
     text-decoration: none;
     color: rgb(225, 19, 19);
 }
 
 .reserva img {
-    width: 180px; 
+    width: 180px;
     height: 100px;
-    padding: 5px; 
+    padding: 5px;
 }
 
-footer{
+footer {
 
     width: 95vw;
     display: flex;
     justify-content: center;
-    
+
 }
- 
-footer img{
+
+footer img {
     height: 30px;
 }
 
+@media screen and (min-width: 900px) {
 
+    header h1 {
+
+        align-self: center;
+
+    }
+
+    header nav {
+        align-self: center;
+
+
+    }
+
+    .noticias_principais {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    iframe {
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .secundarias{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .reserva a{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .reserva img {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        
+    }
+
+}
+    
