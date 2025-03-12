@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.box{
+    border: 10px dotted black;
+
+}
+
+img{
+    transform: translate(100px, 100px) rotate(25deg) scale(1.5) skew(10deg);
+    
+}
