@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+    animation: is-bouncing 1s cubic-bezier(0.100, 0.50, 0.25, 0.10) alternate infinite;
+}
+
+
+@keyframes is-bouncing {
+    to{
+        transform: translateY(30px);
+    }
+}
