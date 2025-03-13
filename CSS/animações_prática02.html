@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preloader - Círculo Girando</title>
+
+    <style>
+
+        body{
+            display: grid;
+            place-content: center;
+            height: 100vh;
+        }
+
+        .spinner{
+            border-radius: 50%;
+            border: 1px solid red;
+            width: 200px;
+            height: 200px;
+
+            animation: pulse 1s linear infinite;
+        }
+
+        @keyframes pulse {
+            0%{
+                border: 10px solid red;
+            }
+
+            50%{
+                border: 30px  solid red ;
+            }
+
+            100%{
+                border: 10px solid red;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="spinner"></div>
+</body>
+</html>

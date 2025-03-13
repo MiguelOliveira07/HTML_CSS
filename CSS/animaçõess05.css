@@ -1,5 +1,47 @@
 @charset "UTF-8";
 
 body{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text_reveal{
+    overflow: hidden;
+    position: relative;
+
+&::after{
+        animation: text-reveal 3s cubic-bezier(0.85, 0, 0.15, 1) forwards;
+        background-color: skyblue;
+        bottom: 0;
+        content: ' ';
+        display: block;
+        left: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+h1{
+    animation: fade 1ms 1.5s forwards;
+    opacity: 0
+}
+
+@keyframes text-reveal {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(101%);
+    }
+}
+
+@keyframes fade {
+    to{
+       opacity: 1;
+    }
 }
