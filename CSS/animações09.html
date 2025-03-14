@@ -18,22 +18,22 @@
         }
 
         .baralho{
-            width: 179px;
-            height: 350px;
-            background: url(Imagens/baralho-frente.png) no-repeat center;
+            width: 279px;
+            height: 450px;
+            background: url(Imagens/baralho-frente.png)  center;
             background-size: contain; 
+            background-repeat: no-repeat;
         }
         
         .baralho:hover{
-            animation: virar 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+            animation: virar 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
             ;
         }
         
 
         @keyframes virar {
             to{
-                transform: rotateY(-180deg) rotateZ(-10deg);
-                background: url(Imagens/baralho-verso)
+                transform: rotateY(-360deg) rotateZ(-180deg) ;
             }
         }
 

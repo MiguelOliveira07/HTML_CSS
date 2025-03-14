@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações 10</title>
+
+    <style>
+        body{
+            display: grid;
+            place-items: center;
+            box-sizing: border-box;
+            height: 100vh;
+
+        }
+
+        main{
+            display: flex;
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 5px;
+
+            border-radius: 50%;
+        }
+        
+        .green {
+            background: green;
+            animation: verde 5s infinite;
+        }
+        .green:hover {
+            
+            animation: verde 4ms linear forwards;
+        }
+
+        .yellow {
+            background: yellow;
+        }
+        .yellow:hover {
+            
+            animation: amarelo 4ms linear forwards;
+        }
+
+        .red {
+            background: red;
+        }.red:hover {
+            
+            animation: vermelho 4ms linear forwards;
+        }
+
+        
+        @keyframes verde {
+            
+           to {
+                background-color: rgba(0, 128, 0, 0.5);
+            }
+        }
+        @keyframes amarelo {
+            
+           to {
+                background-color: rgba(255, 255, 0, 0.5);
+            }
+        }
+        @keyframes vermelho {
+            
+           to {
+                background-color: rgba(255, 0, 0, 0.5);
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+    </main>
+</body>
+</html>
