@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações 09</title>
+
+    <style>
+        
+        body{
+            box-sizing: border-box;
+            display: grid;
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+            place-content: center;
+            perspective: 1000px;
+        }
+
+        .baralho{
+            width: 179px;
+            height: 350px;
+            background: url(Imagens/baralho-frente.png) no-repeat center;
+            background-size: contain; 
+        }
+        
+        .baralho:hover{
+            animation: virar 3s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+            ;
+        }
+        
+
+        @keyframes virar {
+            to{
+                transform: rotateY(-180deg) rotateZ(-10deg);
+                background: url(Imagens/baralho-verso)
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="baralho"></div>
+</body>
+</html>

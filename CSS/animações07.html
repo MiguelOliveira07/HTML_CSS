@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações 07</title>
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+
+            opacity: 1;
+            overflow: hidden;
+        }
+        main{
+            width: 500px;
+            height: 100px;
+            
+            display: flex;
+            justify-content:flex-start;
+            align-items: center;
+        }
+
+
+        div {
+            width: 10px;
+            height: 20px;
+            
+            background-color: rgb(123, 255, 0);
+            animation: loading 3s cubic-bezier(0.23, 0.80, 0.220, 1) infinite;
+        }
+
+        @keyframes loading {
+            from{
+                width: 0px;
+            }
+
+            to{
+                width: 500px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <div></div>
+    </main>
+</body>
+
+</html>

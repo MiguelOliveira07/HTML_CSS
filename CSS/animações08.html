@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animações 08</title>
+
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+
+            opacity: 1;
+            overflow: hidden;
+        }
+
+        main {
+            width: 400px;
+            height: 100px;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden;
+        }
+
+
+        span {
+            animation: loading 8s linear infinite;
+
+        }
+
+        @keyframes loading {
+            from {
+                transform: translateX(100%);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <span>Temos novas manieras de fazer animações, como está</span>
+    </main>
+</body>
+
+</html>
