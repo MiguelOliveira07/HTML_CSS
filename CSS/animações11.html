@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carregando</title>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+
+        .icone{
+            animation: carregar 1s infinite;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 10px solid rgba(134, 134, 134, 0.63);
+            border-top: 10px solid rgb(0, 174, 255);
+        }
+
+        @keyframes carregar {
+            to{
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="icone"></div>
+</body>
+</html>
