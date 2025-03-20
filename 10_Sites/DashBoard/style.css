@@ -6,3 +6,126 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.icons{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+header{
+    height: 80px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.icons_start{  
+    width: 50vw;
+    display: flex;
+    flex-flow: row nowrap; 
+    align-items: self-start;
+    
+}
+header h1{
+    align-self: center;
+    justify-content: center;
+    width: 30vw;
+}
+.icons_end {
+    width: 50vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.my_photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.userp{
+    
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.painel{
+    display: flex;
+    max-height: 100vh;
+}
+
+.navegation{
+    height: 100vh;
+    list-style: none;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+.navegation h2{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.616);
+    text-align: center;
+}
+
+.categorias{
+    padding-top: 5px;
+}
+
+.categorias li{
+    padding: 10px 0px 5px 0px
+}
+
+.info{
+    background-color: rgba(193, 200, 202, 0.2);
+    width: 100vw;
+    overflow: hidden;
+}
+
+.cards_group{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+.card{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80px;
+    margin-left: 5px;
+    align-items: center;
+    align-self: center;
+
+}
+
+#card1{
+    background: linear-gradient(-145deg, #39ee39, #79ca7979);
+}
+#card2{
+    background: linear-gradient(-145deg, #39eedf, #79baca79);
+}
+#card3{
+    background: linear-gradient(-145deg, #4b39ee, #9179ca79);
+}
+#card4{
+    background: linear-gradient(-145deg, #ee3f39, #ca897979);
+}
