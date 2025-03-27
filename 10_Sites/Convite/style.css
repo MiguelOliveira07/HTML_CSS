@@ -242,6 +242,6 @@ main {
     & .botao_inscricao:hover{
         background-color: #1f72ca;
         color: white;
-        transition: 1.5s;
+        transition: .6s;
     }
 }
