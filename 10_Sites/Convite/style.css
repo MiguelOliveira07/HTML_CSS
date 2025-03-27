@@ -10,6 +10,22 @@
     src: url(Newsreader-Quicksand-Ubuntu/Ubuntu/Ubuntu-Bold.ttf);
 }
 
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+    }
+}
+
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -129,65 +145,103 @@ main {
     }
 }
 
-.detalhes{
+.detalhes {
     background-color: blueviolet;
 
-    & .descricao{
-        background-color: rgb(43, 22, 231);
+    & .descricao {
+        background-color: #2b16e7;
         padding: 40px;
         text-align: justify;
         line-height: 1.3;
         color: rgba(255, 255, 255, 0.9);
     }
-    & h3{
+
+    & h3 {
         padding: 10px;
         font-family: letra-forte;
         text-shadow: 1px 1px 3px black;
     }
 
-    & #endereço{
+    & #endereço {
         padding: 20px;
         color: yellow;
     }
 }
 
-.agenda{
+.agenda {
     height: auto;
     display: flex;
     padding: 20px;
     text-align: center;
     flex-flow: column wrap;
-    
-    & nome{
+
+    & nome {
         font-weight: 600;
         font-size: 1.1rem;
         padding: 10px;
+
     }
-   
-    & p{
-       line-height: 1.2;
-       padding: 5px;
+
+    & p {
+        line-height: 1.2;
+        padding: 5px;
     }
 }
 
-.inscrição{
+.inscrição {
     height: 400px;
     padding: 50px 0px 50px 0px;
-    background-color: aquamarine;
+    background-color: #2b16e7;
     display: flex;
     flex-flow: row nowrap;
     gap: 30px;
     justify-content: center;
     align-items: top;
 
-    & .cartao{
-        background-color: rgb(141, 61, 61);
+    & .cartao {
+        animation: gradient 10s ease alternate infinite;
+        background: linear-gradient(45deg, #096ad1, #007bff, #00ffe1, #3dff77) no-repeat;
+        background-size: 400%, 400%;
+        border: 1px solid rgba(133, 133, 133, 0.5);
+        border-radius: 10px;
+        box-shadow: 2px 2px 3px black;
+        display: flex;
+        flex-flow: column nowrap;
+        font-weight: 600;
+        line-height: 1.5;
+        justify-content: space-between;
+        padding: 15px;
+        width: 250px;
+    }
+
+
+    & h4 {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 15px;
+        box-shadow: 1px 1px 3px black;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.3rem;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+    }
+
+    & p {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    & .botao_inscricao {
+        border: none;
         padding: 10px;
         border-radius: 10px;
-        width: 200px;
-        font-size: 1.2rem;
-        text-align: center;
-        background-image: linear-gradient(45deg, #00b0cf, white, #00b0cf);
+        box-shadow: 1px 1px 3px black;
+        font-weight: 100;
+    }
+
+    & .botao_inscricao:hover{
+        background-color: #1f72ca;
+        color: white;
+        transition: 1.5s;
     }
 }
-
