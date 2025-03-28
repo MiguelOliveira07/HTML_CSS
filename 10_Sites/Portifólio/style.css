@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Russa;
+    src: url(fonte/Strengthen.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco: #ffffff;
+    --branquinho: #F2F2F2;
+    --cafecomleite: #BF8C60;
+    --cinzaclaro: #D9D9D9;
+    --cinzaescuro: #585859;
+    --preto: #0D0D0D;   
+}
+
+body{
+    background-image: url(imagens/pexels-andrew-2312369.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    user-select: none;
+    margin: 50px auto;
+    background-color: var(--cinzaclaro);
+    border-radius: 6px;
+    width: 460px;
+    text-align: center;
+    box-shadow: 6px 3px 7px var(--preto);
+}
+
+.bg-capa{
+    background: url(imagens/pexels-luis-gomes-166706-546819.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.foto_perfil{
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    margin: 95px 0px 0px 290px;
+    padding: 5px;
+    background-color: var(--cinzaescuro);
+    border: 3.5px solid var(--cinzaclaro);
+    
+}
+
+.perfil_nome{
+    height: 52px;
+    font-size: 40px;
+    font-family: Russa;
+    font-weight: 600;
+
+    color: var(--preto);
+
+    margin: 15px -1px -2px -149px;
+}
+
+.sobre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 5px;
+    line-height: 30px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+button{
+    margin: 10px 0px 30px 0px;
+}
+
+.msg_btn, .seguir_btn{
+    background: var(--cinzaclaro);
+    border: 2px solid var(--cinzaescuro);
+    padding: 10px 25px;
+    color: var(--preto);
+    border-radius: 5px ;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.seguir_btn{
+    margin-left: 10px;
+}
+
+.seguir_btn:hover, .msg_btn:hover{
+    color: var(--branquinho);
+    background-color: var(--cinzaescuro);
+    transition: 0.8s;
+}
+
+.rodapé img{
+    height: 30px;
+    width: 30px;
+}
