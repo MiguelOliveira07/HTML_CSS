@@ -78,7 +78,7 @@ section {
     display: flex;
     flex-flow: column nowrap;
     overflow: hidden;
-    background-color: rgb(245, 245, 200)
+    background-color: rgb(252, 252, 245)
 }
 
 .titulo {
